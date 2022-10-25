@@ -11,8 +11,16 @@ First install the python interpreter within the project.
 3. # Endpoints
 
     http://localhost:5000/api/users (Get all users in database) (GET)
+    
+    
     http://localhost:5000/api/users/<user_id> (Get user by ID) (GET)
+    
+    
     http://localhost:5000/api/users/add (Add a user to the database) (POST)
+    
+    
     http://localhost:5000/api/users/update (Update user record) (PUT)
+    
+    
     http://localhost:5000/api/users/delete/<user_id> (Delete user record) (DELETE)
 
